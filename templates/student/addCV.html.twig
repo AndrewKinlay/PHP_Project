@@ -1,0 +1,33 @@
+{#----------------#}
+{# templates/admin.html.twig #}
+{#----------------#}
+
+{% extends '_base.html.twig' %}
+
+{% block title %}admin codes{% endblock %}
+
+{% block main %}
+
+    <h1 xmlns="http://www.w3.org/1999/html">CV information</h1>
+
+
+    <form action="/CVsuccess" id="CVform">
+        First name:<br>
+        <input type="text" name="name" value="John"><br><br>
+        Last name:<br>
+        <input type="text" name="surName" value="Doe"><br><br>
+
+    </form>
+
+    Experience:<br>
+    <textarea name="experience" form="CVform">ie. Work experience</textarea><br><br>
+
+    Skills:<br>
+    <textarea name="skills" form="CVform">ie. Photoshop</textarea><br><br>
+
+    Achievements:<br>
+    <textarea name="achievements" form="CVform">ie. awards</textarea><br><br>
+
+    <input type="submit" value="Submit" form="CVform">
+
+{% endblock %}

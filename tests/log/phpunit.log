@@ -1,0 +1,19 @@
+TAP version 13
+ok 1 - ItbTest\cvTest::testCanBeCreated
+ok 2 - ItbTest\cvTest::testCanSetGetid
+ok 3 - ItbTest\cvTest::testCanSetGetName
+ok 4 - ItbTest\cvTest::testCanSetGetSurname
+ok 5 - ItbTest\cvTest::testCanSetGetExperience
+ok 6 - ItbTest\cvTest::testCanSetGetSkills
+ok 7 - ItbTest\cvTest::testCanSetGetAchievements
+ok 8 - ItbTest\JobsTest::testCanBeCreated
+ok 9 - ItbTest\JobsTest::testCanSetGetid
+ok 10 - ItbTest\JobsTest::testCanSetGetTitle
+ok 11 - ItbTest\JobsTest::testCanSetGetEmployer
+ok 12 - ItbTest\JobsTest::testCanSetGetLength
+ok 13 - ItbTest\JobsTest::testCanSetGetStartDate
+ok 14 - ItbTest\UserTest::testCanBeCreated
+ok 15 - ItbTest\UserTest::testCanSetGetid
+ok 16 - ItbTest\UserTest::testCanSetGetUsername
+ok 17 - ItbTest\UserTest::testCanSetGetPassword
+1..17

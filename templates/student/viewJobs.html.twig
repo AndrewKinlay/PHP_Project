@@ -1,0 +1,31 @@
+{#----------------#}
+{# templates/admin.html.twig #}
+{#----------------#}
+
+{% extends '_base.html.twig' %}
+
+{% block title %}View Jobs{% endblock %}
+
+{% block main %}
+
+    <h1>Students</h1>
+
+    <table>
+
+        {% for job in jobs %}
+
+
+            <tr>
+                <th>
+                    {{ job }}
+                </th>
+            </tr>
+
+
+
+
+            {% end for %}
+
+    </table>
+
+{% endblock %}

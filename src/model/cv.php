@@ -1,0 +1,161 @@
+<?php
+/**
+ * Hdip\model\cv
+ */
+namespace Hdip\model;
+
+/**
+ * use database table
+ */
+use Mattsmithdev\PdoCrud\DatabaseTable;
+/**
+ * use database manager
+ */
+use Mattsmithdev\PdoCrud\DatabaseManager;
+
+/**
+ * Class cv
+ * @package Hdip\model
+ */
+class cv extends DatabaseTable
+{
+
+    /**
+     * id
+     * @var
+     */
+    private $id;
+    /**
+     * name
+     * @var
+     */
+    private $name;
+    /**
+     * surname
+     * @var
+     */
+    private $surname;
+    /**
+     * experience
+     * @var
+     */
+    private $experience;
+    /**
+     * skills
+     * @var
+     */
+    private $skills;
+    /**
+     * achievements
+     * @var
+     */
+    private $achievements;
+
+    /**
+     * get id
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * set id
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
+    /**
+     * get name
+     * @return mixed
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * set name
+     * @param mixed $name
+     */
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    /**
+     * get name
+     * @return mixed
+     */
+    public function getSurname()
+    {
+        return $this->surname;
+    }
+
+    /**
+     * set surname
+     * @param mixed $employer
+     */
+    public function setSurname($surname)
+    {
+        $this->surname = $surname;
+    }
+
+    /**
+     * get surname
+     * @return mixed
+     */
+    public function getExperience()
+    {
+        return $this->experience;
+    }
+
+    /**
+     * set experience
+     * @param mixed $experience
+     */
+    public function setExperience($experience)
+    {
+        $this->experience = $experience;
+    }
+
+    /**
+     * get skills
+     * @return mixed
+     */
+    public function getSkills()
+    {
+        return $this->skills;
+    }
+
+    /**
+     * set skills
+     * @param mixed $skills
+     */
+    public function setSkills($skills)
+    {
+        $this->skills = $skills;
+    }
+
+    /**
+     * get achievements
+     * @return mixed
+     */
+    public function getAchievements()
+    {
+        return $this->achievements;
+    }
+
+    /**
+     * set achievements
+     * @param mixed $startDate
+     */
+    public function setAchievements($achievements)
+    {
+        $this->achievements = $achievements;
+    }
+}

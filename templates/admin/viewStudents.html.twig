@@ -1,0 +1,27 @@
+{#----------------#}
+{# templates/admin.html.twig #}
+{#----------------#}
+
+{% extends '_base.html.twig' %}
+
+{% block title %}admin home{% endblock %}
+
+{% block main %}
+
+    <h1>Students</h1>
+
+    <table>
+
+        {% for User in users %}
+
+                    <tr>
+                        <th>
+                          {{ User.username }}
+                        </th>
+                    </tr>
+
+            {% end for %}
+
+    </table>
+
+{% endblock %}
