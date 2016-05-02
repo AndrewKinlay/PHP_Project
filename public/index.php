@@ -8,8 +8,8 @@ require_once __DIR__ . '/../src/utility/helperFunctions.php';
 require_once __DIR__ . '/../app/config.php';
 
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_USER', 'fred');
+define('DB_PASS', 'smith');
 define('DB_NAME', 'itb');
 
 
